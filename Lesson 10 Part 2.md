@@ -7,6 +7,3 @@
 
 - It is common for different applications to use the same template names  
     - We use a technique called "namespace" to be able to do so (appname/templates/appname/)  
-
-## Using the Django Template Language (DTL)  
-- use {{ variable|safe }} to avoid automatic escaping of data
