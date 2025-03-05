@@ -1,0 +1,8 @@
+- 2 tables, table of makes and table of cars 
+- LoginRequiredMixin to force logins
+- make url paths for loggin in and templates, django handles the forms and authentication automatically
+- use validators field to class variables in models.py to enforce submission requirements
+- use forms.py to make a form class and use that form object in a field
+- then, the post data gathered from that form submission can be used to create a new object
+- an update view takes the form and fills it with pre-existing data at that primary key
+- then the user may change that data and submit a new post request
